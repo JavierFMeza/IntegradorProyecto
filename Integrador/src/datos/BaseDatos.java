@@ -9,9 +9,9 @@ import java.sql.Statement;
 import java.util.LinkedList;
 
 public class BaseDatos {
-	private String conectionstr = "jdbc:oracle:thin:@localhost:1521:XE";
-	private String username = "prueba3";
-	private String password = "prueba3";
+	private String conectionstr = "jdbc:oracle:thin:@192.168.254.215:1521:orcl";
+	private String username = "apexgym";
+	private String password = "apexgym";
 	
 	public Connection getConnection() {
 		Connection conn = null;
